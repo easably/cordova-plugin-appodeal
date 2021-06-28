@@ -227,7 +227,7 @@ int nativeShowStyleForType(int adTypes) {
 }
 
 - (void) setLogLevel:(CDVInvokedUrlCommand*)command {
-    switch ([[[command arguments] objectAtIndex:1] intValue]) {
+    switch ([[[command arguments] objectAtIndex:0] intValue]) {
         case 0:
             [Appodeal setLogLevel:APDLogLevelOff];
             break;
