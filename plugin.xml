@@ -36,7 +36,8 @@
         <config-file parent="/manifest/application" target="app/src/main/AndroidManifest.xml" mode="merge">
 
 			<!-- Admob app id as required by play-services 17+ -->
-			<meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="$ADMOB_APP_ID"/>
+			<!-- <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="$ADMOB_APP_ID"/> -->
+      <!-- Added this in your main manifest file -->
         </config-file>
 
         <source-file src="src/android/AppodealPlugin.java" target-dir="app/src/main/java/com/appodeal/plugin" />
