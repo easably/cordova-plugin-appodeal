@@ -71,8 +71,8 @@ Minimum OS requirements:
 
 Appodeal Cordova Plugin includes:
 
-+ Android Appodeal SDK version 2.5.6
-+ iOS Appodeal SDK version 2.4.4.3-Beta
++ Android Appodeal SDK version 2.10.1
++ iOS Appodeal SDK version 2.10.1
 
 ### Multidex
  
