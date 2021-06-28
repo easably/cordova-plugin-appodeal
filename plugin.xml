@@ -71,6 +71,6 @@
       </config-file>
       <header-file src="src/ios/AppodealPlugin.h"/>
       <source-file src="src/ios/AppodealPlugin.m"/>
-		<framework src="Appodeal" type="podspec" spec="2.10.1" />
+		<framework src="Appodeal" type="podspec" spec="2.7.0-Beta" />
       </platform>
 </plugin>
